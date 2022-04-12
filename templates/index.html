@@ -1,0 +1,12 @@
+{% extends 'inc/base.html' %}
+
+{% block content %}
+    <h2 class="mt-5"> Questions </h2>
+    {% for question in questions %}
+        {% include "inc/single_question.html" %}
+    {% endfor %}
+{% endblock content %}
+
+{% block tags %}
+    <h2 class="mt-5"> Tags </h2>
+{% endblock tags %}

@@ -1,0 +1,11 @@
+{% load static %}
+<div class="row question">
+
+    <div class="col-2">
+        <img class="question-avatar" src="{% static '/img/firstavatar.webp' %}" alt="">
+    </div>
+    <div class="col-10">
+        <h3>{{ question.title }}</h3>
+        <p>{{ question.text }}</p>
+    </div>
+</div>
