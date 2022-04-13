@@ -5,7 +5,7 @@
         <img class="question-avatar" src="{% static '/img/firstavatar.webp' %}" alt="">
     </div>
     <div class="col-10">
-        <h3>{{ question.title }}</h3>
+        <h3> <a href="{% url "single_q" question.q_num %}">{{ question.title }}</a></h3>
         <p>{{ question.text }}</p>
     </div>
 </div>

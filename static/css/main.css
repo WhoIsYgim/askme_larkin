@@ -13,4 +13,21 @@ main > .container {
     height: 100px;
     width: 100px;
 }
+form > .form-group {
+    margin-top: 40px;
+}
 
+#quest-text {
+    margin-bottom: 10px;
+}
+
+.tag {
+    min-height: 45px;
+    text-align: center;
+    min-width: 90px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    float: left;
+}
